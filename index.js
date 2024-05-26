@@ -126,7 +126,7 @@ submitButton.addEventListener("click", (e) => {
 
     if (fnFlag && lnFlag && eFlag && pwdFlag){
         fnTarget.value = lnTarget.value = eTarget.value = pwdTarget.value = ""
-        window.location.href = "/form-validation/success.html"
+        window.location.href = "/success.html"
     }
 })
 
